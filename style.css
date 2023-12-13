@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('whip.jpg');
+  background-size: cover;
+  background-position: center;
+
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+}
+
+nav{
+  padding-top: 30px;
+  padding-bottom: 30px ;
+  padding-left: 40%;
+  padding-right: 20%;
+}
+
+.nav a{
+  color:black;
+  display: flex;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav a: hover{
+  color: greenyellow;
+}
+
+
+.btn1{
+  background: yellow;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid;
+}
+
+.btn1:hover{
+  background:greenyellow;
+  border: 2px solid;
+  color:black;
+  transition: 2sec;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.description {
+  max-width: 400px;
+}
+
+h1 {
+  margin-left: 30% ;
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.description-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.description-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.portfolio-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.portfolio-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.portfolio-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.portfolio-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.portfolio-images img.custom-size-1 {
+  width: 324px;
+  height: 144px;
+}
+
+.portfolio-images img.custom-size-2 {
+  width: 212px;
+  height: 260.5px;
+}
+
